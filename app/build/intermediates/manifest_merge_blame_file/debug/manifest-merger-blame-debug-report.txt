@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gunnm.quake3"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="24" />
+10-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+11
+12    <!-- Tell the system this app requires OpenGL ES 3.1. -->
+13    <uses-feature
+13-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:5-77
+14        android:glEsVersion="0x00030001"
+14-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:19-51
+15        android:required="true" />
+15-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:52-75
+16    <uses-feature
+16-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:6-94
+17        android:name="android.hardware.vr.headtracking"
+17-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:20-67
+18        android:required="true" />
+18-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:68-91
+19    <!-- Network access needed for OVRMonitor -->
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:12:5-67
+20-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:12:22-64
+21    <!-- Volume Control -->
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:14:5-80
+22-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:14:22-77
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:15:5-79
+23-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:15:22-76
+24    <uses-permission android:name="android.permission.STORAGE" />
+24-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:16:5-66
+24-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:16:22-63
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:17:5-80
+25-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:17:22-77
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:18:5-81
+26-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:18:22-78
+27
+28    <application
+28-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:5-43:19
+29        android:allowBackup="false"
+29-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:18-45
+30        android:debuggable="true"
+31        android:label="Quake III Arena"
+31-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:46-77
+32        android:testOnly="true" >
+33        <meta-data
+33-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:9-100
+34            android:name="com.samsung.android.vr.application.mode"
+34-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:20-74
+35            android:value="vr_only" />
+35-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:75-98
+36        <meta-data
+36-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:9-85
+37            android:name="com.oculus.supportedDevices"
+37-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:20-62
+38            android:value="all" />
+38-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:63-82
+39        <!-- The activity is the built-in NativeActivity framework class. -->
+40        <!-- launchMode is set to singleTask because there should never be multiple copies of the app running. -->
+41        <!-- Theme.Black.NoTitleBar.Fullscreen gives solid black instead of a (bad stereoscopic) gradient on app transition. -->
+42        <!-- If targeting API level 24+, configChanges should additionally include 'density'. -->
+43        <!-- If targeting API level 24+, android:resizeableActivity="false" should be added. -->
+44        <activity
+44-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:28:9-42:20
+45            android:name="com.GUNNM_VR.Quake3eVR.MainActivity"
+45-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:29:13-63
+46            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|uiMode"
+46-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:34:13-114
+47            android:excludeFromRecents="false"
+47-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:33:13-47
+48            android:launchMode="singleTask"
+48-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:31:13-44
+49            android:screenOrientation="landscape"
+49-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:32:13-50
+50            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+50-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:30:13-77
+51
+52            <!-- Tell NativeActivity the name of the .so -->
+53            <meta-data
+53-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:13-88
+54                android:name="android.app.lib_name"
+54-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:24-59
+55                android:value="Quake3eVR" />
+55-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:60-85
+56            <!-- This filter lets the apk show up as a launchable icon. -->
+57            <intent-filter>
+57-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:38:13-41:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:39:17-69
+58-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:39:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:40:17-77
+60-->C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:40:27-74
+61            </intent-filter>
+62        </activity>
+63    </application>
+64
+65</manifest>

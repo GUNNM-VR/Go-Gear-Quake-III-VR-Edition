@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\75877556ef6481fccd342946f0c48eda\animated-vector-drawable-24.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\9a930d2ee4ded0c4ef412c68b5a80450\support-vector-drawable-24.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\be53f99ed6133cd79ec12244f8e69ea0\support-v4-24.0.0\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:5:31-61
+uses-feature#0x00030001
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:5-77
+	android:glEsVersion
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:19-51
+	android:required
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:8:52-75
+uses-feature#android.hardware.vr.headtracking
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:6-94
+	android:required
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:68-91
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:10:20-67
+uses-permission#android.permission.INTERNET
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.STORAGE
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:16:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:18:22-78
+application
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:5-43:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\75877556ef6481fccd342946f0c48eda\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\75877556ef6481fccd342946f0c48eda\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\9a930d2ee4ded0c4ef412c68b5a80450\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\9a930d2ee4ded0c4ef412c68b5a80450\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\be53f99ed6133cd79ec12244f8e69ea0\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\be53f99ed6133cd79ec12244f8e69ea0\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:46-77
+	android:allowBackup
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:20:18-45
+meta-data#com.samsung.android.vr.application.mode
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:9-100
+	android:value
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:75-98
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:21:20-74
+meta-data#com.oculus.supportedDevices
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:9-85
+	android:value
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:63-82
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:22:20-62
+activity#com.GUNNM_VR.Quake3eVR.MainActivity
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:28:9-42:20
+	android:screenOrientation
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:32:13-50
+	android:excludeFromRecents
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:33:13-47
+	android:launchMode
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:31:13-44
+	android:configChanges
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:34:13-114
+	android:theme
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:30:13-77
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:29:13-63
+meta-data#android.app.lib_name
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:13-88
+	android:value
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:60-85
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:36:24-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml:40:27-74
+uses-sdk
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\75877556ef6481fccd342946f0c48eda\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\75877556ef6481fccd342946f0c48eda\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\9a930d2ee4ded0c4ef412c68b5a80450\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\9a930d2ee4ded0c4ef412c68b5a80450\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\be53f99ed6133cd79ec12244f8e69ea0\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\be53f99ed6133cd79ec12244f8e69ea0\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\famille\.gradle\caches\transforms-2\files-2.1\944544cad7c677d407c6328370bb2d6b\appcompat-v7-24.0.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\travail\Quake3eVR\Quake3eVR_GO_VRAPI\app\src\main\AndroidManifest.xml

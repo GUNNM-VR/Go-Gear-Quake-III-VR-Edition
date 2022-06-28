@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk",
+    "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "botlib-debug-armeabi-v7a": {
+      "artifactName": "botlib",
+      "buildCommand": "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libbotlib.a",
+      "abi": "armeabi-v7a",
+      "output": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libbotlib.a"
+    },
+    "Quake3eVR-debug-armeabi-v7a": {
+      "artifactName": "Quake3eVR",
+      "buildCommand": "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libQuake3eVR.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libQuake3eVR.so"
+    },
+    "android_native_app_glue-debug-armeabi-v7a": {
+      "artifactName": "android_native_app_glue",
+      "buildCommand": "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libandroid_native_app_glue.a",
+      "abi": "armeabi-v7a",
+      "output": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libandroid_native_app_glue.a"
+    },
+    "rendv-debug-armeabi-v7a": {
+      "artifactName": "rendv",
+      "buildCommand": "D:\\android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/librendv.a",
+      "abi": "armeabi-v7a",
+      "output": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\librendv.a"
+    }
+  }
+}

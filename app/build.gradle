@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24//26
+
+    lintOptions {
+        checkReleaseBuilds false // allow compile with Sdk < 26
+    }
+
+    defaultConfig {
+        applicationId  "com.gunnm.quake3"
+        minSdkVersion    24//19  > 23 for audiodevice.getDevices()
+        targetSdkVersion 24//26
+        //targetSdkVersion 29 // error: https://stackoverflow.com/questions/60523640/unable-to-access-file-system-after-android-9-to-10-change
+
+        versionCode 1
+        versionName "0.0.1"
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a'/*, 'x86', 'x86_64'*/
+    }
+   externalNativeBuild {
+       ndkBuild {
+           path 'src/main/jni/Android.mk'
+       }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        // Change apk name
+        applicationVariants.all{
+            // this method is use to rename your all apk weather
+            // it may be signed or unsigned(debug apk)
+            variant ->
+                variant.outputs.each{
+                    output->
+                        output.outputFileName = "Quake3eVR_Go.apk"
+                }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:24.0.0'
+}

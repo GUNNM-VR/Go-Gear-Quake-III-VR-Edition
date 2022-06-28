@@ -1,0 +1,58 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI",
+      "sdkFolder": "D:\\android\\android-sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app",
+      "makeFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\.cxx",
+      "cxxFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx",
+      "ndkFolder": "D:\\android\\android-sdk\\ndk-bundle",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a",
+  "jsonFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a",
+  "buildCommandFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\travail\\Quake3eVR\\Quake3eVR_GO_VRAPI\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\compile_commands.json"
+}

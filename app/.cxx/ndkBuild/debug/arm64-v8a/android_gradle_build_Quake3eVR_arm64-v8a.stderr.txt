@@ -1,0 +1,55 @@
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2138:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073265221664 to 3850637344 [-Wconstant-conversion]
+        emit(STRai(R1, rVMBASE, offsetof(vm_t, programStack))); // vm->programStack = r1
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:425:96: note: expanded from macro 'STRai'
+#define STRai(dst, base, off)  (AL | (0b010<<25) | (0b1100<<21) | (0<<20) | base<<16 | dst<<12 | off)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2149:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266315264 to 3851730944 [-Wconstant-conversion]
+        emit(LDRai(R12, rVMBASE, offsetof(vm_t,systemCall))); // r12 = vm->systemCall
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2491:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266294904 to 3851710584 [-Wconstant-conversion]
+        emit(LDRai(rINSPOINTERS, rVMBASE, offsetof(vm_t, instructionPointers)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2492:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266302984 to 3851718664 [-Wconstant-conversion]
+        emit(LDRai(rDATABASE, rVMBASE, offsetof(vm_t, dataBase)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2493:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266307200 to 3851722880 [-Wconstant-conversion]
+        emit(LDRai(rDATAMASK, rVMBASE, offsetof(vm_t, dataMask)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2496:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266298912 to 3851714592 [-Wconstant-conversion]
+        emit(LDRai(rPSTACK, rVMBASE, offsetof(vm_t, programStack)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2497:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266286608 to 3851702288 [-Wconstant-conversion]
+        emit(LDRai(rOPSTACK, rVMBASE, offsetof(vm_t, opStack)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2498:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073266290712 to 3851706392 [-Wconstant-conversion]
+        emit(LDRai(rOPSTACKTOP, rVMBASE, offsetof(vm_t, opStackTop)));
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:392:96: note: expanded from macro 'LDRai'
+#define LDRai(dst, base, off12)(AL | (0b010<<25) | (0b1100<<21) | (1<<20) | base<<16 | dst<<12 | off12)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:2503:7: warning: implicit conversion from 'unsigned long' to 'uint32_t' (aka 'unsigned int') changes value from 18446744073265250336 to 3850666016 [-Wconstant-conversion]
+        emit(STRai(rPSTACK, rVMBASE, offsetof(vm_t, programStack))); // vm->programStack = rPSTACK;
+        ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/travail/Quake3eVR/Quake3eVR_GO_VRAPI/app/src/main/jni/../../../../../Quake3e-master\code/qcommon/vm_armv7l.c:425:96: note: expanded from macro 'STRai'
+#define STRai(dst, base, off)  (AL | (0b010<<25) | (0b1100<<21) | (0<<20) | base<<16 | dst<<12 | off)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+9 warnings generated.

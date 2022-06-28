@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"0.0.1","enabled":true,"outputFile":"Quake3eVR_Go.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.gunnm.quake3","split":"","minSdkVersion":"24"}}]
